@@ -1,0 +1,169 @@
+
+
+.overall {
+    border: 3px solid black;
+    position: relative;
+    
+}
+
+
+.container {
+    background: #fff;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+}
+
+.list-items {
+    list-style: none;
+    text-transform: uppercase;
+    display: flex;
+    margin-top: 0;
+    font-size: 10px;
+    
+}
+
+.items {
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: dodgerblue;
+}
+
+.btn {
+    padding: 15px;
+    background: black;
+    color: #fff;
+    font-size: 10px;
+    text-transform: uppercase;
+    width: 150px;
+}
+
+.btn:hover {
+    background: #fff;
+    color: black;
+}
+
+.second-container {
+    max-width: 200px;
+    margin-left: 200px;
+    
+}
+
+.third-container {
+    display: flex;
+    margin-left: 150px;
+    /* justify-content: space-around; */
+    
+}
+
+.profile-picture {
+    height: 300px;
+    width: 300px;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+.portfolio-btn {
+    background: #fff;
+    color: black;
+    font-size: 10px;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.portfolio-btn:hover {
+    background: black;
+    color: #fff;
+}
+
+.inner-container {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+p {
+    white-space: pre-line;
+   
+}
+
+h3 {
+    font-size: 30px; 
+    margin-bottom: 0;
+    margin-top: 60px;
+    
+}
+
+.fourth-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.h4-container{
+   max-width: 150px;
+   white-space: pre-line;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.contact-me {
+    height: 40px;
+    width: 150px;
+    margin-top: 50px;
+    background: #fff;
+    color: black;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.contact-me:hover {
+    background: black;
+    color: #fff;
+}
+
+.fifth-container {
+    display: flex;
+    justify-content: space-around;
+    background: black;
+    height: 50px;
+    align-items: center;
+    width: 1287.64px;
+    border-left-width: 2.72727px;
+    border-right-width: 2.72727px;
+    border-top-width: 2.72727px;
+    border-bottom-width: 2.72727px;
+}
+
+.footer-icons {
+    color: #fff;
+}
+
+.fifth-container .items {
+    color: #fff;
+}
+
+.fifth-container .items:hover {
+    color: dodgerblue;
+}
+
+.links {
+    margin-left: 5px;
+}
+
+.inner-fifth {
+    display: flex;
+}
